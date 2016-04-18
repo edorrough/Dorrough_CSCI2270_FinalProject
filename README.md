@@ -1,2 +1,4 @@
 # Dorrough_CSCI2270_FinalProject
 The most final of projects.
+I am working on my final project alone.
+I am making a program to assist me in recording and updating character sheets in the tabletop role playing game Dungeons and Dragons (D&D). D&D requires constant bookkeeping and editing of your character sheet due to abilities, spells, leveling up, and other modifiers, and sometimes it can be hard to keep up with the math on the fly. I wish to make a program that will keep track of my character or the characters in the party, but the program will not roll dice because, lets face it, nothing is satisfying like physically rolling a natural 20. This program could be described as a helper program designed to assist the players in playing, like keeping inventories clean and tidy, displaying attack modifiers, and doing math so the player doesn't have to.
