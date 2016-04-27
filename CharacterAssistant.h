@@ -15,7 +15,7 @@ struct Character{
     int xp;
     Character *next;
     Character *previous;
-    int stats[6]={0,0,0,0,0,0};
+    int stats[6]={10,10,10,10,10,10};
 
     Character(){};//default constructor
 
