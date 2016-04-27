@@ -16,8 +16,8 @@ This program needs only the class interface, implementation, and driver file to 
 Upon loading up the program for the first time, create a new character by typing 'new'. It will prompt you for a name and a class. You can add nodes indefinitely with the add function, and the delete function can delete any node that was created. The print function lists all the characters stored in the linked list from head->tail. The select function is the biggest of them all, and will take you to another loop where menu choices prompt you for input. These choices in this loop are used to manipulate the selected character's stats. To quit out of this loop, type 'back'.
 
 Dependencies:
-Not many external applications or libraries are being used, except for the #include <time.h> and #include <stdlib.h>, and these were required for my program to use the rand() function effectively. Without using the time.h library to reset the seed of the rand() function every time it's needed, the rand() function would generate the same set of random numbers every time the program executed, which makes random die rolling quite impossible.
-I also #incuded <iostream> to make use of the console.
+Not many external applications or libraries are being used, except for the #include "time.h" and #include "stdlib.h", and these were required for my program to use the rand() function effectively. Without using the time.h library to reset the seed of the rand() function every time it's needed, the rand() function would generate the same set of random numbers every time the program executed, which makes random die rolling quite impossible.
+I also #incuded "iostream" to make use of the console.
 
 System Requirements:
 This was coded entirely on the CU Virtual Machine, on my Windows laptop. Tus, it will run on any other machine that has the CU VM on it.
