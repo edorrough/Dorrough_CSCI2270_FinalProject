@@ -57,7 +57,7 @@ int main()
             Character current=ca.searchChar(name);//searches for the Character given the name of the Character
             cout<<"Current character: "<<current.characterName<<endl;
             cout<<"Enter 'back' to quit from this sub-menu"<<endl;
-            while(userInput!="back")//nested while loop
+            while(userInput!="back" && userInput!="quit")//nested while loop
             {
                 cout<<"'mod' character stats, 'display' stats, 'roll' a d20, 'level' up, add 'xp'"<<endl;//choices are here
                 cout<<"attack bonus: Dex: "<<((current.stats[1]-10)/2) + ca.profBonus(current.level)<<endl;//listing commonly needed stats at a glance
