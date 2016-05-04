@@ -48,6 +48,12 @@ void CharacterAssistant::deleteChar(string name)
             delete temp;
             break;
         }
+        else if(temp->characterName==name and temp->previous==NULL and temp->next==NULL)//it's found and it's the tail AND the head
+        {
+            delete temp;
+            head = NULL;
+            break;
+        }
         else
         {
             temp=temp->next;
